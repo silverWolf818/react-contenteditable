@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.input {
+    width: 500px;
+    height: 100px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
