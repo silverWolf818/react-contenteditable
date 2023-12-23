@@ -6,7 +6,7 @@ function App() {
     const [value, setValue] = useState("Hello World")
 
     return (
-        <Contenteditable className={'input'} value={value} onChange={(event) => {
+        <Contenteditable value={value} onChange={(event) => {
             setValue(event.currentTarget.innerHTML)
         }}/>
     )
